@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 543px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0;
+}
+
+#container>div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    width: 30px;
+    margin: 0px;
+    border: 1px solid gray;
+}
